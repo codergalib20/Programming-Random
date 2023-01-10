@@ -2,12 +2,11 @@
 
 using namespace std;
 
-int main () {
-    cout << "Welcome to My first programm" << endl;
-
-    string str = "s";
-
-    // cin >> str;
-
-    cout << srt;
+int main()
+{
+    cout << "Enter tow numbers" << endl;
+    int n1 = 0, n2 = 0;
+    cin >> n1 >> n2;
+    cout << "The sum of " << n1 << " and " << n2 << " is " << n1 + n2 << endl;
+    return 0;
 }
