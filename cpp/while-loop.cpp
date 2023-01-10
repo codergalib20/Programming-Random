@@ -6,7 +6,8 @@ int main()
 
     while (count <= 10)
     {
-        std::cout << "Counted " + count << std::endl;
+        std::cout << "Counted "  << count << std::endl;
         count = count + 1;
     }
+    return 0;
 }
