@@ -1,7 +1,6 @@
 #include <iostream>
 
 using namespace std;
-
 int main()
 {
     int n;
@@ -12,11 +11,10 @@ int main()
         int col = 1;
         while (col <= row)
         {
-            cout << col << " ";
-            col++;
+            cout << row;
+            col = col + 1;
         }
         cout << endl;
-        row++;
+        row = row + 1;
     }
-    return 0;
 }
