@@ -34,4 +34,4 @@ void prime(int n)
     else {
         cout << n << " is a prime number.";
     }
-}
+} 
