@@ -7,7 +7,7 @@ int main()
     // std::cout << x;
     int y[4] = {2,3,4,5};
     while(count <= 4) {
-        std::cout << y[count];
+        std::cout << y[count] << std::endl;
         count++;
     }
 }
