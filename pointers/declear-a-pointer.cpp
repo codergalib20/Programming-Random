@@ -2,11 +2,13 @@
 
 using namespace std;
 
-
-int main () {
+int main()
+{
     int value = 200;
-    int * pval  = &value;
+    int *pval = &value;
 
-   cout << *pval << endl << value << endl;
-   cout << pval << endl << value;
+    cout << *pval << endl
+         << value << endl;
+    cout << pval << endl
+         << value;
 }
