@@ -1,12 +1,27 @@
+// #include <iostream>
+
+// using namespace std;
+
+// int add(int x, int y, int z = 0)
+// {
+//     return x + y + z;
+// }
+
+// int main()
+// {
+// }
+
 #include <iostream>
 
 using namespace std;
 
-int add(int x, int y, int z = 0)
+int max(int a = 0, int b = 0, int c = 0)
 {
-    return x + y + z;
+    return a > b && a > c ? a : (b > c ? b : c);
 }
 
 int main()
 {
+    cout << max(10, 13, 15) << endl;
+    return 0;
 }
