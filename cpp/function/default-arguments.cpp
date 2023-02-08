@@ -22,6 +22,9 @@ int max(int a = 0, int b = 0, int c = 0)
 
 int main()
 {
+    cout << max() << endl;
+    cout << max(15) << endl;
+    cout << max(13, 15) << endl;
     cout << max(10, 13, 15) << endl;
     return 0;
 }
