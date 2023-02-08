@@ -83,6 +83,25 @@ int main()
 }
 ```
 
-<!-- ------------Function Template----------- -->
+<!-- ------------Default Arguments in Function----------- -->
+
+## Default Arguments in Function
+
+- ⭕ The z is optional
+```
+#include <iostream>
+
+using namespace std;
+
+int add(int x, int y, int z = 0)
+{
+    return x + y + z;
+}
+
+int main()
+{
+}
+```
+
 <!-- ------------Function Template----------- -->
 <!-- ------------Function Template----------- -->
