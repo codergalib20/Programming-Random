@@ -15,6 +15,8 @@
 - [Static Variable]()
 - [Recursive Function]()
 - [Exercise]()
+- [Object Oriented Programming]()
+- [Exercise]()
 
 <!-- ------------Function Template----------- -->
 
@@ -105,3 +107,6 @@ int main()
 
 <!-- ------------Function Template----------- -->
 <!-- ------------Function Template----------- -->
+
+
+<!-- ------------Default Arguments in Function----------- -->
