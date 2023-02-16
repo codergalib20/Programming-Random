@@ -35,7 +35,11 @@ using namespace std;
 //     employee1.introduction();
 // }
 
-class Employee
+class AbstractEmployee
+{
+    virtual void AskForPromotion() = 0;
+};
+class Employee : AbstractEmployee
 {
 private:
     string Name;
@@ -83,11 +87,19 @@ public:
     {
         Age = age;
     }
+    void AskForPromotion()
+    {
+        if (Age >= 18)
+            cout << Name << "Got Promoted" << endl;
+        else
+            cout << Name << ", sorry No promotion for you!" << endl;
+    }
 };
 
 int main()
 {
-    Employee employee1 = Employee("Galib", "Edive", 17);
+    Employee employee1 = Employee("Galib", "Edive", 18);
+    employee1.AskForPromotion();
     employee1.introduction();
     cout << "Get Employee Name : " << employee1.getName();
 }
