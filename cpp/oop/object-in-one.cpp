@@ -70,10 +70,24 @@ public:
     {
         return Age;
     }
+    // Set single value
+    void setName(string name)
+    {
+        Name = name;
+    }
+    void setCompany(string company)
+    {
+        Company = company;
+    }
+    void setAge(int age)
+    {
+        Age = age;
+    }
 };
 
 int main()
 {
     Employee employee1 = Employee("Galib", "Edive", 17);
     employee1.introduction();
+    cout << "Get Employee Name : " << employee1.getName();
 }
