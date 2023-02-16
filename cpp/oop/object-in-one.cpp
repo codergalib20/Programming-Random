@@ -37,11 +37,12 @@ using namespace std;
 
 class Employee
 {
-public:
+private:
     string Name;
     string Company;
     int Age;
 
+public:
     // Custom function
     void introduction()
     {
@@ -55,6 +56,19 @@ public:
         Name = name;
         Company = company;
         Age = age;
+    }
+    // Get single value
+    string getName()
+    {
+        return Name;
+    }
+    string getCompany()
+    {
+        return Company;
+    }
+    int getAge()
+    {
+        return Age;
     }
 };
 
