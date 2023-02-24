@@ -14,9 +14,14 @@ func stringReturn(x string) string {
 	return x
 }
 
+func never() {
+	fmt.Println("That is an never function")
+}
+
 func main() {
 	fmt.Println(double(20))
 	var number = doubleDouble(5, 10)
 	fmt.Println(number)
 	fmt.Println(stringReturn("Welcome to string function"))
+	never()
 }
