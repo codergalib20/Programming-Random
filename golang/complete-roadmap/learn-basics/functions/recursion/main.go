@@ -25,7 +25,10 @@ import "fmt"
 
 func array() {
 	arr := []int{2, 4, 5, 5, 6, 73, 2, 3, 4}
-	fmt.Println(arr)
+	// fmt.Println(arr)
+	for i := 0; i < len(arr); i++ {
+		fmt.Println(arr[i])
+	}
 }
 
 func main() {
