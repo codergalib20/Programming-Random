@@ -38,8 +38,8 @@ func array() {
 
 	for i := 0; i < len(groups); i++ {
 		fmt.Println(groups[i])
-		for j := 0; i < len(groups[i]); j++ {
-			// fmt.Println(groups[i][j])
+		for j := 0; j < len(groups[i]); j++ {
+			fmt.Println(groups[i][j])
 		}
 	}
 }
