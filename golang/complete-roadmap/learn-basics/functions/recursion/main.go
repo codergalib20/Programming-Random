@@ -14,15 +14,21 @@ import "fmt"
 // 	testcount(1)
 // }
 
-func count(x int) int {
-	if x == 30 {
-		return 0
-	}
+// func count(x int) int {
+// 	if x == 30 {
+// 		return 0
+// 	}
 
-	fmt.Println(x)
-	return count(x + 1)
+// 	fmt.Println(x)
+// 	return count(x + 1)
+// }
+
+func array() {
+	arr := []int{2, 4, 5, 5, 6, 73, 2, 3, 4}
+	fmt.Println(arr)
 }
 
 func main() {
-	count(2)
+	// count(2)
+	array()
 }
