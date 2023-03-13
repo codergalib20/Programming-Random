@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // func testcount(x int) int {
 // 	if x == 11 {
 // 		return 0
@@ -34,14 +32,17 @@ func array() {
 	// 	fmt.Println(index+1, " -> ", element)
 	// }
 
-	groups := [][]string{{"one", "two", "three"}, {"inb", "math", "Wel"}, {"olympic", "big o", "data"}}
+	// groups := [][]string{{"one", "two", "three"}, {"inb", "math", "Wel"}, {"olympic", "big o", "data"}}
 
-	for i := 0; i < len(groups); i++ {
-		fmt.Println(groups[i])
-		for j := 0; j < len(groups[i]); j++ {
-			fmt.Println(groups[i][j])
-		}
-	}
+	// for i := 0; i < len(groups); i++ {
+	// 	fmt.Println(groups[i])
+	// 	for j := 0; j < len(groups[i]); j++ {
+	// 		fmt.Println(groups[i][j])
+	// 	}
+	// }
+	// numbers := [8]int{10, 20, 30, 40, 50, 60, 70, 80}
+	// sliceNumbers := numbers[4, 7]
+
 }
 
 func main() {
